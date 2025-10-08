@@ -1,4 +1,9 @@
 一个godot的启动器,有于 电脑中存在多版本godot编辑器时 启动对应版本,  不在桌面放置godot编辑器图标,
+请自行手动添加到环境变量的Path之中,
+
+
+
+
 <img width="696" height="450" alt="屏幕截图 2025-10-08 212553" src="https://github.com/user-attachments/assets/386e6447-9aac-4758-ae55-7c4a72307ebc" />
 <img width="520" height="300" alt="屏幕截图 2025-10-08 212725" src="https://github.com/user-attachments/assets/da80ce17-48b2-43e3-9735-08b491e4b7f4" />
 首次启动需要自行输入路径,
