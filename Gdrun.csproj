@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- 启用单文件发布 -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <!-- 可选：包含本机运行时（使文件真正独立运行） -->
+    <SelfContained>true</SelfContained>
+    <!-- 指定目标运行时（必须指定，否则无法生成单文件） -->
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+    <!-- 可选：压缩单文件（.NET 8 支持） -->
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+</Project>
